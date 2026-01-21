@@ -9,7 +9,7 @@ class ProjectController extends Controller {
     }
 
     public function index2() {
-        $skill = ['PHP Native & MVC', 'Python', 'HTML & CSS', 'JavaScript', 'SQL', 'Reyvan', 'Keren', 'Banget', 'Fauzan', 'Suki'];
+        $skill = ['PHP Native & MVC', 'Python', 'HTML & CSS', 'JavaScript', 'SQL'];
         return view ('portofolio', compact('skill'));
     }
 }
