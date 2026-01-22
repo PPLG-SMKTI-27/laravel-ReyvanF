@@ -63,9 +63,5 @@
             <a class="btn" href="https://id.likedin.com">LinkedIn</a>
         </div>
     </section>
-
-    <footer>
-        &copy; {{ date('Y') }} Reyvan Fatahillah Al-Aqsho. All Rights Reserved.
-    </footer>
 @endsection
 
