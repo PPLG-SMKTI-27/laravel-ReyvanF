@@ -11,6 +11,17 @@
     <div class="hero-content">
         <img src="/assets/bebas.png" alt="Foto Reyvan" class="profile-img">
         <div class="badge">🚀 Fullstack Programmer</div>
+        @if (session('success'))
+            <div style="
+                background:#d1fae5;
+                color:#065f46;
+                padding:12px;
+                border-radius:10px;
+                margin-bottom:15px;
+            ">
+                {{ session('success') }}
+            </div>
+        @endif
         <h1>Membangun <span>Website Modern</span><br>Dengan Kode Berkualitas</h1>
         <p>
             Saya <strong>Reyvan Fatahillah Al-Aqsho</strong>, seorang Fullstack Programmer

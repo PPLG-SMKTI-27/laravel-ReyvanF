@@ -48,6 +48,11 @@
         <ul class="nav-menu">
             <li><a href="/">Beranda</a></li>
             <li><a href="/projects">Proyek</a></li>
+            @if (session('login'))
+                <li><a href="/logout"><b>Logout</b></a></li>
+            @else
+                <li><a href="/login"><b>Login</b></a></li>
+            @endif
         </ul>
     </div>
 </nav>
