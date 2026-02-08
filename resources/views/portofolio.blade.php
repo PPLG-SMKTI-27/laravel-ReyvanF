@@ -48,7 +48,7 @@
         <p>Teknologi yang sering saya gunakan dalam pengembangan aplikasi.</p>
         <div class="skills-grid">
             @foreach ($skill as $skilli)
-                <div class="skill">{{ $skilli }}</div>
+                <div class="skill">{{ $skilli['title'] }}</div>
             @endforeach
         </div>
     </section>
